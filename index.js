@@ -1,7 +1,7 @@
     
 
     let colorclick = document.querySelector('.clickme');
-
+    const number = 24;
     let color = document.querySelector('.colorone');
     let arrOne = ['hej', 'farvel', 'ses', 'snakkes'];
     let showBox = document.querySelector('.show');
@@ -14,13 +14,7 @@
     
     showBox.innerHTML += arrOne;
 
-    fetch("https://api.hejmeddig.com/v1/sider", {
-        method: "GET"
-      }).then(function (response) {
-        return response.json();
-      }).then(function (data) {
-         console.log(data); 
-        })
+    number = 12;
     
     //foo();
 

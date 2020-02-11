@@ -12,7 +12,7 @@
         
     })
     
-    showBox.innerHTML += arrone;
+    showBox.innerHTML += arrOne;
     
     //foo();
 

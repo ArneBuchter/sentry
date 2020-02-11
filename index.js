@@ -8,7 +8,7 @@
 
     let result = one + two;
 
-    console.log(result);
+    console.log(typeof(result))
     
     colorclick.addEventListener('click', () => {
         

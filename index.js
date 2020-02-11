@@ -4,7 +4,7 @@
     let arrOne = ['hej', 'farvel', 'ses', 'snakkes'];
     let showBox = document.querySelector('.show');
     let one = 1;
-    let two = "2";
+    let two = "f";
 
     let result = one + two;
 
@@ -15,7 +15,7 @@
         color.classList.toggle('colortwo');
         
     })
-    
+    one.toUpperCase();
     showBox.innerHTML += arrOne;
 
     

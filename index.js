@@ -1,4 +1,4 @@
-document.addEventListener('DMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
 
     
     let colorclick = document.querySelector('clickme');

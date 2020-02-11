@@ -1,6 +1,5 @@
 //document.addEventListener('DOMContentLoaded', function () {
 
-    foo();
     let colorclick = document.querySelector('clickme');
     let color = document.querySelector('.colorone');
     let arrOne = ['hej', 'farvel', 'ses', 'snakkes'];
@@ -14,4 +13,5 @@
     
     showBox.innerHTML += arrone;
     
+    foo();
 //})
